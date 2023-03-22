@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form.js</title>
+    <link rel = "icon" type = "image/png" href = "img/js.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src = "js/main.js" defer></script>
+</head>
+    <body>
+    <h1>Form with <span>JS</span></h1>
+        <form id = "form">
+            <div class = "loader" id = "progress-bar" data-label=""></div>
+            <label for = "name">Name:</label>
+            <input type = "text" id = "name">
+
+            <label for = "email">E-Mail:</label>
+            <input type = "email" id = "email">
+
+            <label for = "password">Password:</label>
+            <input type = "password" id = "password">
+
+            <label for = "job">Current work situation:</label>
+            <select name = "job" id="job">
+                <option value = "" id="job">You are looking for a job?</option>
+                <option value = "yes">Yes</option>
+                <option value="no">No</option>
+
+                <label for = "message">Message us!</label>
+                <textarea name="message" id="message"></textarea>
+
+                <button type = "submit">Send it</button>
+            </select>
+        </form>
+    </body>
+</html>
